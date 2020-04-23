@@ -13,11 +13,56 @@ const routes = [
   {
     path: "/aprilabank",
     name: "AprilaBank",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AprilaBank.vue")
+      import("../views/AprilaBank.vue")
+  },
+  {
+    path: "/kpmg",
+    name: "KPMG",
+    component: () =>
+      import("../views/KPMG.vue")
+  },
+  {
+    path: "/orkla",
+    name: "Orkla",
+    component: () =>
+      import("../views/Orkla.vue")
+  },
+  {
+    path: "/galeriabarwna",
+    name: "GaleriaBarwna",
+    component: () =>
+      import("../views/GaleriaBarwna.vue")
+  },
+  {
+    path: "/livsglede",
+    name: "Livsglede",
+    component: () =>
+      import("../views/Livsglede.vue")
+  },
+  {
+    path: "/birdcage",
+    name: "BirdCage",
+    component: () =>
+      import("../views/BirdCage.vue")
+  },
+  {
+    path: "/conductor",
+    name: "Conductor",
+    component: () =>
+      import("../views/Conductor.vue")
+  },
+  {
+    path: "/drones",
+    name: "Drones",
+    component: () =>
+      import("../views/Drones.vue")
+  },
+  {
+    path: "/scale",
+    name: "Scale",
+    component: () =>
+      import("../views/Scale.vue")
   }
 ];
 

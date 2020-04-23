@@ -11,17 +11,17 @@
         </div>
         <h3>Other</h3>
         <div class="wrapper">
-          <router-link class="project" to="/galeriabarwna">Galeria Barwna</router-link>
+          <router-link class="project galeriabarwna" to="/galeriabarwna">Galeria Barwna</router-link>
         </div>
         <h3>NTNU</h3>
         <h4>Service Design</h4>
         <div class="wrapper">
-          <router-link class="project" to="/diakonhjemmet">Diakonhjemmet huset</router-link>
+          <router-link class="project" to="/livsglede">Livsglede hele livet</router-link>
         </div>
         <h4>User Centered Design</h4>
         <div class="wrapper">
           <router-link class="project" to="/drones">Drones Website</router-link>
-          <router-link class="project" to="/scale">Scale</router-link>
+          <router-link class="project scale" to="/scale">Scale</router-link>
         </div>
         <h4>Interaction Design</h4>
         <div class="wrapper">
@@ -50,8 +50,8 @@ export default {
 <style scoped>
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-auto-rows: 100px;
+  grid-template-columns: repeat(3, 180px);
+  grid-auto-rows: 80px;
   grid-gap: 30px;
 }
 
@@ -63,9 +63,19 @@ export default {
   line-height: 1.8;
   font-weight: bold;
   background-color: hsla(47, 87%, 60%, 1);
+  padding-top: 25px;
+  padding-left: 5px;
 }
 
 .project:hover {
   background-color: #f5d76e;
+}
+
+.galeriabarwna{
+  background-image: linear-gradient(141deg, #f5d76e 27%, hsl(337, 80%, 54%) 43%, #acdb1f 63%, #1fc8db 82%);
+}
+
+.scale{
+  background-image: "~@/assets/img/scale-front.png";
 }
 </style>

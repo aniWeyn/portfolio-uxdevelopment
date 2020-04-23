@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <h2>Aprila Bank</h2>
-    Aprila Bank is dynamic and modern norwegian startup based in Oslo.
+    <h2>AprilaBank</h2>
+    AprilaBank is dynamic and modern norwegian startup based in Oslo. 
     <h3>UX Design</h3>
     <h4>Methods</h4>
     <h5>Interviews</h5>
