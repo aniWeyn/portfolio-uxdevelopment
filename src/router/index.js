@@ -41,10 +41,10 @@ const routes = [
       import("../views/Livsglede.vue")
   },
   {
-    path: "/birdcage",
-    name: "BirdCage",
+    path: "/birdhouse",
+    name: "BirdHouse",
     component: () =>
-      import("../views/BirdCage.vue")
+      import("../views/BirdHouse.vue")
   },
   {
     path: "/conductor",

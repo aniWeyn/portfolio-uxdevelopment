@@ -58,4 +58,21 @@ h3 {
 h4{
   font-size: 1.5em;
 }
+
+.image-description {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  grid-gap: 30px;
+  justify-items: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.paragraph{
+  text-align: center;
+}
+
+.project-description{
+  font-size: 2em;
+}
 </style>

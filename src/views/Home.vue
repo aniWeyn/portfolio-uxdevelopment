@@ -5,9 +5,9 @@
         <h2>Case Studies</h2>
         <h3>Inmeta Consulting AS</h3>
         <div class="wrapper">
-          <router-link class="project" to="/kpmg">KPMG</router-link>
-          <router-link class="project" to="/orkla">Orkla</router-link>
-          <router-link class="project" to="/aprilabank">Aprila Bank</router-link>
+          <router-link class="project project-color" to="/kpmg">KPMG</router-link>
+          <router-link class="project project-color" to="/orkla">Orkla</router-link>
+          <router-link class="project project-color" to="/aprilabank">Aprila Bank</router-link>
         </div>
         <h3>Other</h3>
         <div class="wrapper">
@@ -16,20 +16,12 @@
         <h3>NTNU</h3>
         <h4>Service Design</h4>
         <div class="wrapper">
-          <router-link class="project" to="/livsglede">Livsglede hele livet</router-link>
+          <router-link class="project project-color" to="/livsglede">Livsglede hele livet</router-link>
         </div>
         <h4>User Centered Design</h4>
         <div class="wrapper">
-          <router-link class="project" to="/drones">Drones Website</router-link>
-          <router-link class="project scale" to="/scale">Scale</router-link>
-        </div>
-        <h4>Interaction Design</h4>
-        <div class="wrapper">
-          <router-link class="project" to="/birdcage">Bird Cage</router-link>
-        </div>
-        <h4>Virtual Reality</h4>
-        <div class="wrapper">
-          <router-link class="project" to="/conductor">Conductor Game</router-link>
+          <router-link class="project drones" to="/drones"><div class="cover">Drones Website</div></router-link>
+          <router-link class="project scale" to="/scale"><div class="cover">Scale</div></router-link>
         </div>
       </div>
     </div>
@@ -62,12 +54,14 @@ export default {
   text-decoration: none;
   line-height: 1.8;
   font-weight: bold;
-  background-color: hsla(47, 87%, 60%, 1);
   padding-top: 25px;
-  padding-left: 5px;
 }
 
-.project:hover {
+.project-color{
+  background-color: hsla(47, 87%, 60%, 1);
+}
+
+.project-color:hover {
   background-color: #f5d76e;
 }
 
@@ -76,14 +70,21 @@ export default {
 }
 
 .scale{
-  /*background-image: linear-gradient(141deg, #f5d76e 27%, hsl(337, 80%, 54%) 43%, #acdb1f 63%, #1fc8db 82%);*/
   background-image: url("~@/assets/img/scale-front.png");
   background-size: cover;
 }
 
 .scale:hover{
-  /*background-image: linear-gradient(141deg, #f5d76e 27%, hsl(337, 80%, 54%) 43%, #acdb1f 63%, #1fc8db 82%);*/
   background-image: url("~@/assets/img/scale-back.png");
-  background-color: hsla(47, 87%, 60%, 0.6);
+}
+
+.drones{
+  background-image: url("~@/assets/img/drones-home.png");
+  background-size: cover;
+}
+
+.cover{
+  background-color: hsla(46, 49%, 86%, 0.7);
+  padding-left: 5px;
 }
 </style>
