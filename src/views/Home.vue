@@ -5,7 +5,7 @@
         <h2>Case Studies</h2>
         <h3>Inmeta Consulting AS</h3>
         <div class="wrapper">
-          <router-link class="project kpmg" to="/kpmg">KPMG</router-link>
+          <router-link class="project kpmg" to="/kpmg"><div class="cover">KPMG</div></router-link>
           <router-link class="project aprila" to="/aprilabank"><div class="cover">Aprila Bank</div></router-link>
         </div>
         <h3>NTNU</h3>
@@ -71,6 +71,7 @@ export default {
 
 .scale:hover{
   background-image: url("~@/assets/img/scale-back.png");
+  background-size: cover;
 }
 
 .drones{
@@ -84,11 +85,16 @@ export default {
 }
 
 .aprila{
-  background-color:url("~@/assets/img/aprila-logo.png");
+  background-image: url("~@/assets/img/aprila-bank-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3b2c7c;
+  background-position-y: 50%;
 }
 
 .kpmg{
-  background-color:url("~@/assets/img/kpmg-logo.jpg");
+  background-image: url("~@/assets/img/kpmg-building.jpg");
+  background-size: cover;
 }
 
 .cover{
