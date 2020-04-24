@@ -76,6 +76,14 @@ export default {
 }
 
 .scale{
-  background-image: "~@/assets/img/scale-front.png";
+  /*background-image: linear-gradient(141deg, #f5d76e 27%, hsl(337, 80%, 54%) 43%, #acdb1f 63%, #1fc8db 82%);*/
+  background-image: url("~@/assets/img/scale-front.png");
+  background-size: cover;
+}
+
+.scale:hover{
+  /*background-image: linear-gradient(141deg, #f5d76e 27%, hsl(337, 80%, 54%) 43%, #acdb1f 63%, #1fc8db 82%);*/
+  background-image: url("~@/assets/img/scale-back.png");
+  background-color: hsla(47, 87%, 60%, 0.6);
 }
 </style>
