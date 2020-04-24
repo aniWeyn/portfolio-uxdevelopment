@@ -5,18 +5,13 @@
         <h2>Case Studies</h2>
         <h3>Inmeta Consulting AS</h3>
         <div class="wrapper">
-          <router-link class="project project-color" to="/kpmg">KPMG</router-link>
-          <router-link class="project project-color" to="/orkla">Orkla</router-link>
-          <router-link class="project project-color" to="/aprilabank">Aprila Bank</router-link>
-        </div>
-        <h3>Other</h3>
-        <div class="wrapper">
-          <router-link class="project galeriabarwna" to="/galeriabarwna">Galeria Barwna</router-link>
+          <router-link class="project kpmg" to="/kpmg">KPMG</router-link>
+          <router-link class="project aprila" to="/aprilabank"><div class="cover">Aprila Bank</div></router-link>
         </div>
         <h3>NTNU</h3>
         <h4>Service Design</h4>
         <div class="wrapper">
-          <router-link class="project project-color" to="/livsglede">Livsglede hele livet</router-link>
+          <router-link class="project livesglede" to="/livsglede"><div class="cover">Livsglede hele livet</div></router-link>
         </div>
         <h4>User Centered Design</h4>
         <div class="wrapper">
@@ -27,7 +22,7 @@
     </div>
     <div class="footer">
       <h2>About</h2>Hello! I'm working in Inmeta as Junior Consultant. 
-      <div>This page is made with: VueJS, CSS Grid</div>
+      <div>This page I made with: VueJS, CSS Grid</div>
     </div>
   </div>
 </template>
@@ -81,6 +76,19 @@ export default {
 .drones{
   background-image: url("~@/assets/img/drones-home.png");
   background-size: cover;
+}
+
+.livesglede{
+  background-image: url("~@/assets/img/livsglede-home.png");
+  background-size: cover;
+}
+
+.aprila{
+  background-color:url("~@/assets/img/aprila-logo.png");
+}
+
+.kpmg{
+  background-color:url("~@/assets/img/kpmg-logo.jpg");
 }
 
 .cover{
