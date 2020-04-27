@@ -20,9 +20,8 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <div class="about">
       <h2>About</h2>Hello! I'm working in Inmeta as Junior Consultant. 
-      <div>This page I made with: VueJS, CSS Grid</div>
     </div>
   </div>
 </template>
@@ -50,6 +49,7 @@ export default {
   line-height: 1.8;
   font-weight: bold;
   padding-top: 25px;
+  position: relative;
 }
 
 .project-color{
@@ -95,10 +95,25 @@ export default {
 .kpmg{
   background-image: url("~@/assets/img/kpmg-building.jpg");
   background-size: cover;
+  
 }
 
 .cover{
-  background-color: hsla(46, 49%, 86%, 0.7);
+  background-color: hsla(0, 0%, 100%, 0.7);
+  padding-left: 5px;
+  padding-top: 25px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  vertical-align: middle;
+}
+
+.cover:hover{
+  background-color: hsla(0, 0%, 90%, 0.7);
   padding-left: 5px;
 }
+
+
 </style>

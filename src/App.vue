@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <div class="home">
-    <div class="title">
-      <router-link class="project" to="/">
-      <h2 class="small-font">
-        Sabina
-        <br />Niewiadomska
-      </h2></router-link>
-    </div>
-    <router-view />
-    </div>
+    <section class="content">
+      <header>
+        <nav>
+          <router-link class="project" to="/">
+            <h2 class="small-font">
+              Sabina
+              <br />Niewiadomska
+            </h2>
+          </router-link>
+        </nav>
+      </header>
+      <main>
+        <router-view />
+      </main>
+    </section>
+    <footer>Made by Sabina Niewiadomska with VueJS, HTML5, WCAG, CSS3, CSS Grid, GitHub Pages</footer>
   </div>
 </template>
+
 
 <style>
 #app {
@@ -20,31 +27,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   padding: 40px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-.home {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr;
-  grid-gap: 10px;
-}
-
-.small-font {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: #2c3e50;;
-}
-
-.project{
-  text-decoration: none;
 }
 
 h2 {
@@ -59,6 +41,28 @@ h4{
   font-size: 1.5em;
 }
 
+.small-font {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #2c3e50;;
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.project-description{
+  font-size: 2em;
+}
+
+.project{
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 40px;
+}
+
 .image-description {
   display: grid;
   grid-template-columns: auto;
@@ -67,12 +71,5 @@ h4{
   justify-items: center;
   align-items: center;
   padding-top: 60px;
-}
-.paragraph{
-  text-align: center;
-}
-
-.project-description{
-  font-size: 2em;
 }
 </style>
