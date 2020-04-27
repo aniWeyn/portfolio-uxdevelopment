@@ -21,7 +21,14 @@
       </div>
     </div>
     <div class="about">
-      <h2>About</h2>Hello! I'm working in Inmeta as Junior Consultant. 
+      <h2>About</h2>
+      <p>
+      Hello! I'm working in Inmeta as Junior Consultant. I'm interested into user experience, interaction design, accessibility and front-end development in VueJS. I also know .Net and databases.
+      </p>
+      Contact me at 
+      <address>
+        sabina.niewiadomska@inmeta.no
+        </address>
     </div>
   </div>
 </template>

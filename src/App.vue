@@ -15,7 +15,7 @@
         <router-view />
       </main>
     </section>
-    <footer>Made by Sabina Niewiadomska with VueJS, HTML5, WCAG, CSS3, CSS Grid, GitHub Pages</footer>
+    <footer>Made by Sabina Niewiadomska with VueJS, HTML5, CSS3, CSS Grid, GitHub Pages with respect to WCAG requirements.</footer>
   </div>
 </template>
 
@@ -61,6 +61,8 @@ h4{
 
 footer {
   padding-top: 40px;
+  color: rgb(111, 111, 111);
+  font-size: 0.9em;
 }
 
 .image-description {
