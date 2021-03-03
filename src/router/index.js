@@ -8,66 +8,72 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+  },
+  {
+    path: "/azzista",
+    name: "Azzista",
+    component: () => import("../views/Azzista.vue"),
   },
   {
     path: "/aprilabank",
     name: "AprilaBank",
-    component: () =>
-      import("../views/AprilaBank.vue")
+    component: () => import("../views/AprilaBank.vue"),
+  },
+  {
+    path: "/crayon",
+    name: "Crayon",
+    component: () => import("../views/Crayon.vue"),
   },
   {
     path: "/kpmg",
     name: "KPMG",
-    component: () =>
-      import("../views/KPMG.vue")
+    component: () => import("../views/KPMG.vue"),
+  },
+  {
+    path: "/kroppskontroll",
+    name: "KPMG",
+    component: () => import("../views/Kroppskontroll.vue"),
   },
   {
     path: "/orkla",
     name: "Orkla",
-    component: () =>
-      import("../views/Orkla.vue")
+    component: () => import("../views/Orkla.vue"),
   },
   {
     path: "/galeriabarwna",
     name: "GaleriaBarwna",
-    component: () =>
-      import("../views/GaleriaBarwna.vue")
+    component: () => import("../views/GaleriaBarwna.vue"),
   },
   {
     path: "/livsglede",
     name: "Livsglede",
-    component: () =>
-      import("../views/Livsglede.vue")
+    component: () => import("../views/Livsglede.vue"),
   },
   {
     path: "/birdhouse",
     name: "BirdHouse",
-    component: () =>
-      import("../views/BirdHouse.vue")
+    component: () => import("../views/BirdHouse.vue"),
   },
   {
     path: "/conductor",
     name: "Conductor",
-    component: () =>
-      import("../views/Conductor.vue")
+    component: () => import("../views/Conductor.vue"),
   },
   {
     path: "/drones",
     name: "Drones",
-    component: () =>
-      import("../views/Drones.vue")
+    component: () => import("../views/Drones.vue"),
   },
   {
     path: "/scale",
     name: "Scale",
-    component: () =>
-      import("../views/Scale.vue")
-  }
+    component: () => import("../views/Scale.vue"),
+  },
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;

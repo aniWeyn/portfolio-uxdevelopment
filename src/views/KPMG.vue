@@ -1,10 +1,13 @@
 <template>
   <div class>
     <h2>KPMG</h2>
-    <p
-      class="project-description"
-    >In KPMG I had a chance to work with the smartest auditors from KPMG Norway, Finland and Sweden. </p>
-                <div class="image-description">
+    <p class="project-description">
+      In KPMG I had a chance to help a highly international team of the smartest
+      auditors. My colleagoues represented KPMG Norway, KPMG Finland and KPMG
+      Sweden.
+    </p>
+    <b>Roles:</b> UX / UI Designer, VueJS Developer
+    <div class="image-description">
       <div>
         <img
           src="~@/assets/img/kpmg-prototype.png"
@@ -17,7 +20,7 @@
       <div></div>
     </div>
 
-        <div class="image-description">
+    <div class="image-description">
       <div>
         <img
           src="~@/assets/img/kpmg-switcher2.png"
@@ -39,9 +42,8 @@
         />
         <p class="paragraph">Example of prototype.</p>
       </div>
-
     </div>
-        <div class="image-description">
+    <div class="image-description">
       <div>
         <img
           src="~@/assets/img/kpmg-switcher.gif"

@@ -15,7 +15,10 @@
         <router-view />
       </main>
     </section>
-    <footer>Made by Sabina Niewiadomska with VueJS, HTML5, CSS3, CSS Grid, GitHub Pages with respect to WCAG requirements.</footer>
+    <footer>
+      Made by Sabina Niewiadomska with VueJS, HTML5, CSS3, CSS Grid, GitHub
+      Pages.
+    </footer>
   </div>
 </template>
 
@@ -37,25 +40,25 @@ h3 {
   font-size: 2em;
 }
 
-h4{
+h4 {
   font-size: 1.5em;
 }
 
 .small-font {
   font-size: 1.5em;
   text-decoration: none;
-  color: #2c3e50;;
+  color: #2c3e50;
 }
 
-.paragraph{
+.paragraph {
   text-align: center;
 }
 
-.project-description{
+.project-description {
   font-size: 2em;
 }
 
-.project{
+.project {
   text-decoration: none;
 }
 
