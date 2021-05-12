@@ -50,7 +50,7 @@
     <div class="about">
       <h2>About</h2>
       <p>
-        Hello! I'm working in Inmeta as Junior Consultant. I'm interested into
+        Hello! I'm working in Inmeta as Consultant. I'm interested into
         user experience, interaction design, accessibility and front-end
         development in VueJS. I also know .Net and databases.
       </p>
