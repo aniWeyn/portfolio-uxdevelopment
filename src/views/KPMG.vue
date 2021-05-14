@@ -7,7 +7,7 @@
       Sweden.
     </p>
     <b>Roles:</b> UX / UI Designer, VueJS Developer
-    <div class="image-description">
+    <!--<div class="image-description">
       <div>
         <img
           src="~@/assets/img/kpmg-prototype.png"
@@ -18,7 +18,7 @@
         <p class="paragraph">Example of prototype</p>
       </div>
       <div></div>
-    </div>
+    </div>-->
 
     <div class="image-description">
       <div>
@@ -43,7 +43,7 @@
         <p class="paragraph">Example of prototype.</p>
       </div>
     </div>
-    <div class="image-description">
+    <!--<div class="image-description">
       <div>
         <img
           src="~@/assets/img/kpmg-switcher.gif"
@@ -54,7 +54,7 @@
         <p class="paragraph">Toggle button</p>
       </div>
       <div></div>
-    </div>
+    </div>-->
   </div>
 </template>
 
