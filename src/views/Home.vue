@@ -3,22 +3,34 @@
     <div class="home">
       <div class="casestudies">
         <h2>Case Studies</h2>
+        <h3>Zoopit</h3>
+        <div class="wrapper">
+          <router-link class="project zoopit" to="/zoopit"
+            ><div class="cover">Zoopit</div></router-link
+          >
+        </div>
         <h3>Inmeta Consulting AS</h3>
         <div class="wrapper">
-          <router-link class="project kpmg" to="/kpmg"
-            ><div class="cover">KPMG</div></router-link
+          <router-link class="project multiconsult" to="/multiconsult"
+            ><div class="cover">Multiconsult</div></router-link
           >
-          <router-link class="project aprila" to="/aprilabank"
-            ><div class="cover">Aprila Bank</div></router-link
+          <router-link class="project w3schools" to="/w3schools"
+            ><div class="cover">W3school</div></router-link
           >
-          <router-link class="project crayon" to="/crayon"
-            ><div class="cover">Crayon</div></router-link
+          <router-link class="project azzista" to="/azzista"
+            ><div class="cover">Azzista Sports Innovation</div></router-link
           >
           <router-link class="project kroppskontroll" to="/kroppskontroll"
             ><div class="cover">Kroppskontroll AS</div></router-link
           >
-          <router-link class="project azzista" to="/azzista"
-            ><div class="cover">Azzista Sports Innovation</div></router-link
+          <router-link class="project crayon" to="/crayon"
+            ><div class="cover">Crayon</div></router-link
+          >
+          <router-link class="project aprila" to="/aprilabank"
+            ><div class="cover">Aprila Bank</div></router-link
+          >
+          <router-link class="project kpmg" to="/kpmg"
+            ><div class="cover">KPMG</div></router-link
           >
         </div>
         <h3>After work</h3>
@@ -132,8 +144,18 @@ export default {
   background-position-y: 50%;
 }
 
+.multiconsult {
+  background-image: url("~@/assets/img/multiconsult.png");
+  background-size: cover;
+}
+
 .kpmg {
   background-image: url("~@/assets/img/kpmg-building.jpg");
+  background-size: cover;
+}
+
+.w3schools {
+  background-image: url("~@/assets/img/w3schools.png");
   background-size: cover;
 }
 
@@ -147,13 +169,18 @@ export default {
   background-size: cover;
 }
 
+.zoopit {
+  background-image: url("~@/assets/img/zoopit.png");
+  background-size: cover;
+}
+
 .crayon {
   background-image: url("~@/assets/img/crayon.png");
   background-size: cover;
 }
 
 .cover {
-  background-color: hsla(0, 0%, 100%, 0.7);
+  background-color: hsla(0, 0%, 100%, 0.8);
   padding-left: 5px;
   padding-top: 25px;
   position: absolute;

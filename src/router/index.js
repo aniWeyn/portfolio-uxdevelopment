@@ -11,6 +11,21 @@ const routes = [
     component: Home,
   },
   {
+    path: "/w3schools",
+    name: "W3schools",
+    component: () => import("../views/W3schools.vue"),
+  },
+  {
+    path: "/multiconsult",
+    name: "Multiconsult",
+    component: () => import("../views/Multiconsult.vue"),
+  },
+  {
+    path: "/zoopit",
+    name: "Zoopit",
+    component: () => import("../views/Zoopit.vue"),
+  },
+  {
     path: "/azzista",
     name: "Azzista",
     component: () => import("../views/Azzista.vue"),

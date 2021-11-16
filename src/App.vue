@@ -77,4 +77,9 @@ footer {
   align-items: center;
   padding-top: 60px;
 }
+
+nav{
+  position: sticky;
+  top: 10px;
+}
 </style>
