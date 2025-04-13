@@ -4,9 +4,7 @@
     <p class="project-description">
       At KPMG, I had the opportunity to support a highly international team of
       exceptionally skilled auditors, collaborating with colleagues from KPMG
-      Norway, Finland, and Sweden. KPMG Norway was prototyping a new solution
-      they planned to pitch to KPMG Global. With our support, the proposal was
-      successfully accepted and later adopted by KPMG Global.
+      Norway, Finland, and Sweden.
     </p>
     <b>Roles:</b> UX / UI Designer, VueJS Developer
     <!--<div class="image-description">
@@ -37,24 +35,38 @@
       <div>
         <img
           src="~@/assets/img/kpmg-switcher2.png"
-          alt="Photo of the scale from the front"
+          alt="Screenshot of sketch of UI element"
           width="100"
           height="auto"
         />
         <img
           src="~@/assets/img/kpmg-switcher3.png"
-          alt="Photo of the scale from the front"
+          alt="Screenshot of sketch of UI element"
           width="100"
           height="auto"
         />
         <img
           src="~@/assets/img/kpmg-switcher1.png"
-          alt="Photo of the scale from the front"
+          alt="Screenshot of sketch of UI element"
           width="120"
           height="auto"
         />
         <p class="paragraph">
           Small preview of one of the UI elements I designed.
+        </p>
+      </div>
+    </div>
+    <div class="image-description">
+      <div>
+        <img
+          src="~@/assets/img/kpmg-prototype.png"
+          alt="Screenshot of prototype illustrating of design work for KPMG"
+          width="100%"
+          height="auto"
+        />
+        <p class="paragraph">
+          This image is not the precise prototype designed for KPMG, but a
+          similar project illustrating the same design approach.
         </p>
       </div>
     </div>
@@ -71,19 +83,10 @@
     mindful of creating solutions that were not only user-friendly but also
     technically feasible—prioritizing simplicity, clarity, and reliability in
     both the design and the code.
-
-    <!--<div class="image-description">
-      <div>
-        <img
-          src="~@/assets/img/kpmg-switcher.gif"
-          alt="Gif of a switcher"
-          width="500"
-          height="auto"
-        />
-        <p class="paragraph">Toggle button</p>
-      </div>
-      <div></div>
-    </div>-->
+    <h4>Outcome</h4>
+    KPMG Norway was prototyping a new solution they planned to pitch to KPMG
+    Global. With our support, the proposal was successfully accepted and later
+    adopted by KPMG Global.
   </div>
 </template>
 
