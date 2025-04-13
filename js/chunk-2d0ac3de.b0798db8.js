@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ac3de"],{1966:function(e,t,n){"use strict";n.r(t);var c=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},s=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"about"},[n("h2",[e._v("Conductor")]),n("h3",[e._v("UX Design")]),n("h4",[e._v("Methods")]),n("h3",[e._v("Development")]),n("h4",[e._v("VueJS")])])}],a=n("2877"),u={},o=Object(a["a"])(u,c,s,!1,null,"0659d31a",null);t["default"]=o.exports}}]);
-//# sourceMappingURL=chunk-2d0ac3de.b0798db8.js.map
