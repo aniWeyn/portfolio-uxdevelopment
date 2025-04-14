@@ -53,6 +53,11 @@
         <img src="~@/assets/img/kk-02-08.png" height="300px" alt="" />
       </div>
     </div>
+    <h4>Front-end development advisor</h4>
+    <p>
+      I advised the front-end developer on the use of CSS Grid and Flexbox to
+      ensure efficient and responsive layout implementation for the project.
+    </p>
   </div>
 </template>
 
