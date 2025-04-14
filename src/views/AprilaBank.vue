@@ -6,6 +6,7 @@
       the opportunity to work there as both a UX Designer and a Front-End
       Developer.
     </p>
+    <section><b>Project timeline:</b> a few months</section>
     <b>Roles:</b> UX / UI Designer, Design System Developer, VueJS Developer,
     Blazor Developer
 

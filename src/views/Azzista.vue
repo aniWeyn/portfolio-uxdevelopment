@@ -9,6 +9,8 @@
       promoting equality, and providing development opportunities for players,
       coaches, and clubs worldwide.
     </p>
+    <section><b>Project timeline:</b> a few months</section>
+
     <div class="about">
       <b>Roles:</b> UX / UI Designer, React Developer, Project Management
       <h3>Phase 1</h3>

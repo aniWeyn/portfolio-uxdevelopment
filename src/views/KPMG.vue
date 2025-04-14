@@ -6,6 +6,8 @@
       exceptionally skilled auditors, collaborating with colleagues from KPMG
       Norway, Finland, and Sweden.
     </p>
+    <section><b>Project timeline:</b> a few months</section>
+
     <b>Roles:</b> UX / UI Designer, VueJS Developer
     <!--<div class="image-description">
       <div>

@@ -8,8 +8,9 @@
       beginner-friendly approach, it features the "Try It Yourself" editor,
       enabling users to experiment with code directly in the browser.
     </p>
-    <section><b>Roles:</b> UX / UI Designer</section>
     <section><b>Project timeline:</b> a few days</section>
+    <section><b>Roles:</b> UX / UI Designer</section>
+
     <h4>UX / UI Designer</h4>
     I have designed UI based on provided requrements and collaboration with
     W3school.

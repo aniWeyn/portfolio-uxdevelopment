@@ -8,6 +8,7 @@
       and digital transformation, Crayon empowers organizations to optimize
       their technology investments and drive innovation.
     </p>
+    <section><b>Project timeline:</b> a few days</section>
     <b>Roles:</b> UX / UI Designer, VueJS Developer
     <p><b>Technology: </b> VueJS, Firebase</p>
     <p>

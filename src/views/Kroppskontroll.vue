@@ -8,6 +8,8 @@
       care aimed at improving mobility, reducing pain, and enhancing overall
       well-being.
     </p>
+    <section><b>Project timeline:</b> a few days</section>
+
     <b>Roles:</b> UX / UI Designer, Front-end development advisor
     <h4>UX / UI Designer</h4>
     <div class="about">
