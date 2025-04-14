@@ -1,18 +1,43 @@
 <template>
   <div>
     <h2>Kroppskontroll</h2>
-    <b>Roles:</b> UX / UI Designer
+    <p class="project-description">
+      Kroppskontroll is a Norwegian healthcare provider offering osteopathy,
+      physiotherapy, and chiropractic services at clinics in Oslo (Bjørvika and
+      Skøyen) and Drøbak. The company focuses on delivering affordable, holistic
+      care aimed at improving mobility, reducing pain, and enhancing overall
+      well-being.
+    </p>
+    <b>Roles:</b> UX / UI Designer, Front-end development advisor
+    <h4>UX / UI Designer</h4>
     <div class="about">
-      <b>Live: </b
-      ><a target="_blank" href="https://bestilling.kroppskontrollorene.no/"
-        >Kroppskontroll Booking System</a
-      >
-      <h3>Phase 2</h3>
+      <h4>Phase 1</h4>
+      <p>
+        <b>UI / UX:</b>
+        Figma <br />
+        Kroppskontroll had its own landing page and wanted to add a booking
+        system that matched the look and feel of their existing website. I
+        designed the booking flow by balancing their requirements with my own UX
+        recommendations, and created a user interface that seamlessly integrated
+        with their current visual style.
+      </p>
+      <div class="images">
+        <img src="~@/assets/img/kk-01-01.png" height="300px" alt="" />
+      </div>
+      <div class="images">
+        <img src="~@/assets/img/kk-01-02.png" height="300px" alt="" />
+        <img src="~@/assets/img/kk-01-03.png" height="300px" alt="" />
+      </div>
+      <h4>Phase 2</h4>
       <b>UI / UX:</b>
       Figma <br />
-      I received project of redesigned landing page and I needed to adjust my
-      designs to the new style, <br />
-      and create as well design for My Side <br />
+      A few weeks later, Kroppskontroll contacted us with an updated visual
+      identity and requested a matching update to the booking system. I
+      redesigned the booking interface to align with their new design guidelines
+      and ensure a consistent user experience across the site. In addition, a
+      new section of the system—My Side—was commissioned. I designed this
+      feature in collaboration with the graphic designer behind the updated
+      visual identity.
       <div class="images">
         <img src="~@/assets/img/kk-02-01.png" height="300px" alt="" />
         <img src="~@/assets/img/kk-02-02.png" height="300px" alt="" />
@@ -26,20 +51,6 @@
       <div class="images">
         <img src="~@/assets/img/kk-02-07.png" height="300px" alt="" />
         <img src="~@/assets/img/kk-02-08.png" height="300px" alt="" />
-      </div>
-      <h3>Phase 1</h3>
-      <p>
-        <b>UI / UX:</b>
-        Figma <br />
-        I created booking system flow based on customer requirements <br />
-        I created the UI based on the style of exiting landing page
-      </p>
-      <div class="images">
-        <img src="~@/assets/img/kk-01-01.png" height="300px" alt="" />
-      </div>
-      <div class="images">
-        <img src="~@/assets/img/kk-01-02.png" height="300px" alt="" />
-        <img src="~@/assets/img/kk-01-03.png" height="300px" alt="" />
       </div>
     </div>
   </div>
